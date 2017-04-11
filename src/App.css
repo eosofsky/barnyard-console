@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: red;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  color: purple;
+}
+
+.App-settingsPanel {
+  display: flex;
+  justify-content: center;
+}
+
+.App-sliders {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.App-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.ConsoleButton {
+  width: 100px;
+  height: 40px;
+}
+
+.ConsoleSlider {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
